@@ -563,6 +563,14 @@ a {
 }
 
 .text-depiction {
+  font: normal 18px/28px Roboto, serif;
+  letter-spacing: 0.03em;
+  width: 370px;
+  height: 294px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   transform: translateY(100%);
   left: 0;
