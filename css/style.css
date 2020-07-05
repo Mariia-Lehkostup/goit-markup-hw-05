@@ -556,7 +556,6 @@ a {
   overflow: hidden;
   width: 370px;
   margin-right: 30px;
-  border: 1px solid #eeeeee;
 }
 .flex-visible {
   position: relative;
@@ -595,7 +594,6 @@ a {
   align-items: center;
   justify-content: center;
   background: rgba(33, 150, 243, 0.9);
-  margin-top: 0;
   opacity: 1;
   transform: translateY(0);
 }
@@ -604,10 +602,10 @@ a {
   font: normal 16px/30px Roboto, serif;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-depiction:hover,
 .title-depiction:focus {
-  border: 1px solid #eeeeee;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
@@ -624,7 +622,10 @@ a {
   margin-right: 0px;
 }
 .tehno-text {
-  margin-top: 20px;
+  padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-color: 1px solid #eeeeee;
 }
