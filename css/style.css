@@ -595,6 +595,7 @@ a {
 .title-depiction:hover .text-depiction,
 .title-depiction:focus .text-depiction {
   transform: translateY(0);
+  cursor: pointer;
 }
 
 .title-depiction .text {
@@ -604,6 +605,7 @@ a {
 }
 .title-depiction:hover,
 .title-depiction:focus {
+  cursor: pointer;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
